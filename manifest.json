@@ -1,0 +1,23 @@
+{
+  "name": "Akash Verma | Portfolio",
+  "short_name": "Portfolio",
+  "description": "Akash Verma - .NET Full Stack Developer Portfolio showcasing skills, projects, and contact details.",
+  "start_url": "/PortFolio/",
+  "scope": "/PortFolio/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#212529",
+  "orientation": "portrait",
+  "icons": [
+    {
+      "src": "assets/img/favicon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "assets/img/favicon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}

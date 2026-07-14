@@ -1,461 +1,744 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="icon" type="image/png" href="assets/img/favicon.png" />
-    <link
-      rel="apple-touch-icon"
-      sizes="180x180"
-      href="assets/img/favicon.png"
-    />
-    <title>Akash Verma | Full Stack Developer Portfolio</title>
-    <meta
-      name="description"
-      content="Akash Verma - .NET Full Stack Developer specializing in SignalR, Blazor, SQL optimization, and modern web applications."
-    />
-    <meta
-      name="keywords"
-      content="Akash Verma, .NET Core, SignalR, Blazor, MAUI, SQL, Full Stack Developer, Hyderabad, Himachal Pradesh, Uttar Pradesh, Sky Verma Developer, Akash Verma Developer,Delhi NCR developer, Portfolio"
-    />
-    <link rel="canonical" href="https://sky-verma.github.io/PortFolio/" />
-    <meta
-      property="og:title"
-      content="Akash Verma | Full Stack Developer Portfolio"
-    />
-    <meta
-      property="og:description"
-      content="Explore projects, skills, and contact details of Akash Verma, a .NET full stack developer."
-    />
-    <meta
-      property="og:image"
-      content="https://sky-verma.github.io/PortFolio/assets/img/ProfileImage.jpg"
-    />
-    <meta property="og:url" content="https://sky-verma.github.io/PortFolio/" />
-    <meta property="og:type" content="website" />
-    <meta name="twitter:card" content="summary_large_image" />
-    <meta
-      name="twitter:title"
-      content="Akash Verma | Full Stack Developer Portfolio"
-    />
-    <meta
-      name="twitter:description"
-      content="Passionate .NET full stack developer specializing in modern web applications."
-    />
-    <meta
-      name="twitter:image"
-      content="https://sky-verma.github.io/PortFolio/assets/img/ProfileImage.jpg"
-    />
-    <link rel="manifest" href="manifest.json" />
-    <script type="application/ld+json">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="icon" type="image/png" href="assets/img/favicon.png" />
+  <link rel="apple-touch-icon" sizes="180x180" href="assets/img/favicon.png" />
+  <title>Akash Verma | Full Stack Software Engineer</title>
+  <meta name="description"
+    content="Akash Verma – Full Stack Software Engineer with 4.5+ years of experience in .NET Core, Angular, React, Microservices, AWS, and SQL Server." />
+  <meta name="keywords"
+    content="Akash Verma, .NET Core, SignalR, Blazor, Angular, React, Microservices, AWS, Kubernetes, SQL Server, Full Stack Developer, Hyderabad, Sky Verma Developer, Portfolio" />
+  <link rel="canonical" href="https://sky-verma.github.io/PortFolio/" />
+  <!-- Open Graph -->
+  <meta property="og:title" content="Akash Verma | Full Stack Software Engineer" />
+  <meta property="og:description"
+    content="Explore projects, skills, and work experience of Akash Verma, a Full Stack Software Engineer specializing in .NET Core, Angular, React, and Cloud technologies." />
+  <meta property="og:image" content="https://sky-verma.github.io/PortFolio/assets/img/ProfileImage.jpg" />
+  <meta property="og:url" content="https://sky-verma.github.io/PortFolio/" />
+  <meta property="og:type" content="website" />
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Akash Verma | Full Stack Software Engineer" />
+  <meta name="twitter:description"
+    content="Full Stack Software Engineer with 4.5+ years of experience in .NET Core, Angular, React, Microservices, and Cloud." />
+  <meta name="twitter:image" content="https://sky-verma.github.io/PortFolio/assets/img/ProfileImage.jpg" />
+  <!-- PWA Manifest -->
+  <link rel="manifest" href="manifest.json" />
+  <!-- Structured Data -->
+  <script type="application/ld+json">
       {
         "@context": "https://schema.org",
         "@type": "Person",
         "name": "Akash Verma",
         "url": "https://sky-verma.github.io/PortFolio/",
         "image": "https://sky-verma.github.io/PortFolio/assets/img/ProfileImage.jpg",
-        "jobTitle": ".NET Full Stack Developer",
-        "description": "Passionate full stack developer specializing in .NET Core, SignalR, Blazor, and SQL optimization.",
-        "worksFor": {
-          "@type": "Organization",
-          "name": "Freelance / Open to Opportunities"
-        },
+        "jobTitle": "Full Stack Software Engineer",
+        "description": "Full Stack Software Engineer with 4.5+ years of experience in .NET Core, Angular, React, Microservices, AWS, and SQL Server.",
+        "worksFor": { "@type": "Organization", "name": "Intelliflo Software India Pvt. Ltd." },
         "sameAs": [
           "https://github.com/sky-verma",
           "https://www.linkedin.com/in/akash-verma-32621b1b7/",
           "https://wa.me/+917831836353"
         ],
-        "address": {
-          "@type": "PostalAddress",
-          "addressLocality": "Hyderabad",
-          "addressCountry": "India"
-        },
+        "address": { "@type": "PostalAddress", "addressLocality": "Hyderabad", "addressCountry": "India" },
         "contactPoint": {
           "@type": "ContactPoint",
           "contactType": "Personal",
-          "email": "gcd.bca.akashverma@gmail.com",
+          "email": "engineer.akash.verma@gmail.com",
           "telephone": "+91 78318 36353"
         }
       }
     </script>
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-    />
-    <link
-      href="https://fonts.googleapis.com/css?family=Raleway:400,700&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
-    />
-    <link
-      href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="assets/static/app.css" />
-  </head>
-  <body>
-    <nav
-      class="navbar navbar-expand-lg position-sticky top-0"
-      style="z-index: 1030"
-    >
-      <div class="container">
-        <a class="navbar-brand" href="#">Akash Verma</a>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarNav"
-        >
-          <span class="navbar-toggler-icon" style="filter: invert(1)"></span>
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Space+Grotesk:wght@400;500;600;700&display=swap"
+    rel="stylesheet" />
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" />
+  <!-- App CSS -->
+  <link rel="stylesheet" href="assets/static/app.css" />
+</head>
+
+<body>
+
+  <!-- ════════════════════════════════════════════════════
+         NAVBAR
+    ════════════════════════════════════════════════════ -->
+  <nav id="navbar" aria-label="Main navigation">
+    <div class="container">
+      <div class="nav-inner">
+        <a href="#hero" class="nav-logo" aria-label="Akash Verma Home">&lt;AV /&gt;</a>
+        <ul class="nav-links" id="nav-links" role="menubar">
+          <li role="none"><a class="nav-link" href="#about" data-section="about" role="menuitem">About</a></li>
+          <li role="none"><a class="nav-link" href="#experience" data-section="experience"
+              role="menuitem">Experience</a></li>
+          <li role="none"><a class="nav-link" href="#skills" data-section="skills" role="menuitem">Skills</a></li>
+          <li role="none"><a class="nav-link" href="#projects" data-section="projects" role="menuitem">Projects</a></li>
+          <li role="none">
+            <a class="nav-cta" href="#contact" data-section="contact" role="menuitem">
+              Contact <i class="fas fa-arrow-right fa-xs"></i>
+            </a>
+          </li>
+        </ul>
+        <button class="hamburger" id="hamburger" aria-label="Toggle menu" aria-expanded="false">
+          <span></span><span></span><span></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav ms-auto">
-            <li class="nav-item">
-              <a class="nav-link" href="#about">About</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#skills">Skills</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#projects">Projects</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#contact">Contact</a>
-            </li>
-          </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- ════════════════════════════════════════════════════
+         HERO
+    ════════════════════════════════════════════════════ -->
+  <section id="hero" aria-label="Hero section">
+    <canvas id="hero-canvas" aria-hidden="true"></canvas>
+
+    <!-- Ambient glow orbs -->
+    <div class="glow-orb orb-cyan" style="width:420px;height:420px;top:8%;left:2%;"></div>
+    <div class="glow-orb orb-violet" style="width:520px;height:520px;top:25%;right:-8%;"></div>
+    <div class="glow-orb orb-gold" style="width:260px;height:260px;bottom:8%;left:28%;opacity:0.14;"></div>
+
+    <div class="container">
+      <div class="hero-content">
+
+        <!-- Left: Text -->
+        <div class="hero-text">
+          <p class="hero-greeting">👋 Hello, World!</p>
+          <h1 class="hero-name">
+            I'm <span class="highlight">Akash<br />Verma</span>
+          </h1>
+          <div class="hero-typed-wrapper">
+            <span id="typed-text"></span>
+          </div>
+          <p class="hero-desc">
+            <strong style="color:var(--accent-cyan)">Full Stack Software Engineer</strong> with
+            4.5+ years of experience building scalable web applications and enterprise platforms —
+            from distributed microservices to polished user interfaces.
+          </p>
+          <div class="hero-actions">
+            <a href="#projects" class="btn-primary">
+              <i class="fas fa-rocket"></i> View My Work
+            </a>
+            <a href="#contact" class="btn-secondary">
+              <i class="fas fa-paper-plane"></i> Get in Touch
+            </a>
+          </div>
         </div>
-      </div>
-    </nav>
 
-    <section class="hero-section" data-aos="fade-down">
-      <img
-        id="profile-img"
-        src="assets/img/ProfileImage.jpg"
-        alt="Profile Picture"
-        class="mt-0"
-        loading="lazy"
-      />
-      <h1 class="mt-4">Hi, I'm Akash Verma</h1>
-      <h3>
-        <span class="typed" id="typed"></span>
-      </h3>
-      <div class="social-icons mt-3">
-        <a href="https://github.com/sky-verma" title="GitHub" target="_blank"
-          ><i class="fab fa-github" style="color: white"></i
-        ></a>
-        <a
-          href="https://www.linkedin.com/in/akash-verma-32621b1b7/"
-          title="LinkedIn"
-          ><i class="fab fa-linkedin" style="color: white"></i
-        ></a>
-      </div>
-    </section>
+        <!-- Right: Profile + Social -->
+        <div class="hero-visual">
+          <div class="profile-ring-wrap">
+            <div class="profile-ring" aria-hidden="true"></div>
+            <img id="profile-img" src="assets/img/ProfileImage.jpg" alt="Akash Verma — Full Stack Software Engineer"
+              loading="eager" />
+          </div>
+          <div class="hero-social">
+            <a href="https://github.com/Engineer-Akash-Verma/PortFolio" class="social-pill" target="_blank"
+              rel="noopener" aria-label="GitHub profile">
+              <i class="fab fa-github"></i> GitHub
+            </a>
+            <a href="https://www.linkedin.com/in/akash-verma-32621b1b7/" class="social-pill" target="_blank"
+              rel="noopener" aria-label="LinkedIn profile">
+              <i class="fab fa-linkedin"></i> LinkedIn
+            </a>
+            <a href="https://wa.me/+917831836353" class="social-pill" target="_blank" rel="noopener"
+              aria-label="WhatsApp chat">
+              <i class="fab fa-whatsapp"></i>
+            </a>
+          </div>
+        </div>
 
-    <section id="about" class="container py-5" data-aos="fade-up">
-      <div class="section-title text-center">About Me</div>
-      <div class="row justify-content-center">
-        <div class="col-md-8 text-center">
+      </div>
+    </div>
+
+    <div class="hero-scroll" aria-hidden="true">
+      <span>Scroll</span>
+      <div class="scroll-dot"></div>
+    </div>
+  </section>
+
+  <!-- ════════════════════════════════════════════════════
+         ABOUT
+    ════════════════════════════════════════════════════ -->
+  <section id="about" aria-label="About me">
+    <div class="container">
+      <div class="section-header gsap-fade-up">
+        <span class="section-tag">Who I Am</span>
+        <h2 class="section-title">About <span>Me</span></h2>
+      </div>
+
+      <div class="about-grid">
+        <div class="about-text gsap-fade-left">
           <p>
-            I'm a passionate .NET full stack developer with experience in
-            building modern, responsive web applications. I specialize in
-            backend and frontend development, and work best when the design is
-            provided. Let's collaborate to bring your ideas to life with robust
-            and efficient solutions!
+            I'm a <strong>Full Stack Software Engineer</strong> with over 4.5 years of experience
+            designing and developing scalable web applications and enterprise platforms. I specialize
+            in <strong>.NET Core</strong>, <strong>Angular</strong>, <strong>React</strong>,
+            and cloud-native architectures — consistently delivering production-ready code
+            with a focus on quality and performance.
+          </p>
+          <p>
+            My experience spans the entire stack — from architecting robust backend APIs and
+            microservices to crafting polished, responsive frontends using modern UI frameworks.
+            I'm particularly passionate about <strong>performance optimization</strong>,
+            <strong>distributed systems</strong>, and building reusable component libraries that
+            accelerate team productivity.
+          </p>
+          <p>
+            Currently working remotely as an <strong>Advanced Software Engineer at Intelliflo</strong>,
+            and open to exciting opportunities worldwide.
           </p>
         </div>
-      </div>
-    </section>
 
-    <section id="skills" class="container py-5">
-      <div class="section-title text-center" data-aos="fade-up">Skills</div>
-      <div class="row g-4">
-        <div class="col-md-3 col-6" data-aos="zoom-in" data-aos-delay="50">
-          <div class="card text-center py-4">
-            <i class="fab fa-html5 fa-2x mb-2" style="color: #e34c26"></i>
-            <h6>HTML5 / CSS3</h6>
+        <div class="about-stats gsap-fade-right">
+          <div class="glass-card stat-card gsap-zoom-in">
+            <div class="stat-number" data-count="4">0+</div>
+            <div class="stat-label">Years of Experience</div>
           </div>
-        </div>
-        <div class="col-md-3 col-6" data-aos="zoom-in" data-aos-delay="100">
-          <div class="card text-center py-4">
-            <i class="fab fa-bootstrap fa-2x mb-2" style="color: #264de4"></i>
-            <h6>Bootstrap</h6>
+          <div class="glass-card stat-card gsap-zoom-in">
+            <div class="stat-number" data-count="15">0+</div>
+            <div class="stat-label">Projects Delivered</div>
           </div>
-        </div>
-        <div class="col-md-3 col-6" data-aos="zoom-in" data-aos-delay="150">
-          <div class="card text-center py-4">
-            <i class="fab fa-js fa-2x mb-2" style="color: #f0db4f"></i>
-            <h6>JavaScript / JQuery</h6>
+          <div class="glass-card stat-card gsap-zoom-in">
+            <div class="stat-number" data-count="20">0+</div>
+            <div class="stat-label">Technologies Mastered</div>
           </div>
-        </div>
-        <div class="col-md-3 col-6" data-aos="zoom-in" data-aos-delay="200">
-          <div class="card text-center py-4">
-            <i class="fab fa-microsoft fa-2x mb-2" style="color: #3776ab"></i>
-            <h6>.Net Core / Framework</h6>
+          <div class="glass-card stat-card gsap-zoom-in">
+            <div class="stat-number" data-count="3">0+</div>
+            <div class="stat-label">Companies Worked At</div>
           </div>
         </div>
       </div>
-      <div class="mb-3"></div>
-      <div class="row g-4">
-        <div class="col-md-3 col-6" data-aos="zoom-in" data-aos-delay="250">
-          <div class="card text-center py-4">
-            <i class="fab fa-angular fa-2x mb-2" style="color: #9e0505"></i>
-            <h6>Angular</h6>
-          </div>
-        </div>
-        <div class="col-md-3 col-6" data-aos="zoom-in" data-aos-delay="300">
-          <div class="card text-center py-4">
-            <i class="fa-solid fa-code fa-2x mb-2" style="color: #264de4"></i>
-            <h6>Blazor</h6>
-          </div>
-        </div>
-        <div class="col-md-3 col-6" data-aos="zoom-in" data-aos-delay="350">
-          <div class="card text-center py-4">
-            <i class="fa-solid fa-code fa-2x mb-2" style="color: #f0db4f"></i>
-            <h6>Kendo UI</h6>
-          </div>
-        </div>
-        <div class="col-md-3 col-6" data-aos="zoom-in" data-aos-delay="400">
-          <div class="card text-center py-4">
-            <i class="fab fa-atlassian fa-2x mb-2" style="color: #3776ab"></i>
-            <h6>Azure and Jira boards</h6>
-          </div>
-        </div>
-      </div>
-      <div class="mb-3"></div>
-      <div class="row g-4">
-        <div class="col-md-3 col-6" data-aos="zoom-in" data-aos-delay="450">
-          <div class="card text-center py-4">
-            <i
-              class="fa fa-screwdriver-wrench fa-2x mb-2"
-              style="color: #8b1493"
-            ></i>
-            <h6>Visual Studio</h6>
-          </div>
-        </div>
-        <div class="col-md-3 col-6" data-aos="zoom-in" data-aos-delay="500">
-          <div class="card text-center py-4">
-            <i class="fa-solid fa-server fa-2x mb-2" style="color: #f9f919"></i>
-            <h6>SSMS</h6>
-          </div>
-        </div>
-        <div class="col-md-3 col-6" data-aos="zoom-in" data-aos-delay="550">
-          <div class="card text-center py-4">
-            <i class="fab fa-git fa-2x mb-2" style="color: #da2626"></i>
-            <h6>Git / Github / Github Desktop</h6>
-          </div>
-        </div>
-        <div class="col-md-3 col-6" data-aos="zoom-in" data-aos-delay="600">
-          <div class="card text-center py-4">
-            <i
-              class="fa-solid fa-hand-fist fa-2x mb-2"
-              style="color: #3776ab"
-            ></i>
-            <h6>Team collaboration and activeness</h6>
-          </div>
-        </div>
-      </div>
-    </section>
+    </div>
+  </section>
 
-    <section id="projects" class="container py-5">
-      <div class="section-title text-center" data-aos="fade-up">Projects</div>
-      <div class="row g-4">
-        <div class="col-md-4 d-flex" data-aos="fade-right">
-          <div class="card flex-fill h-100" style="min-width: 0">
-            <div style="height: 200px; overflow: hidden">
-              <iframe
-                src="https://www.rexlondontrade.com/"
-                frameborder="0"
-                scrolling="no"
-                style="width: 100%; height: 100%"
-              ></iframe>
-            </div>
-            <div class="card-body d-flex flex-column">
-              <h5 class="card-title">Rex London Trade</h5>
-              <p class="card-text flex-grow-1">
-                E-commerce website built on Umbraco and uCommerce.
-              </p>
-              <a
-                href="https://www.rexlondontrade.com/"
-                class="btn btn-outline-dark btn-sm mt-auto"
-                target="_blank"
-                >View Project</a
-              >
-            </div>
-          </div>
-        </div>
-        <div class="col-md-4 d-flex" data-aos="fade-up">
-          <div class="card flex-fill h-100" style="min-width: 0">
-            <img
-              src="https://ugm.org/media/ah5hmcw3/ugm-logo-white.svg"
-              class="card-img-top"
-              alt="Project 2"
-              style="
-                background-color: black;
-                height: 200px;
-                object-fit: contain;
-              "
-              loading="lazy"
-            />
-            <div class="card-body d-flex flex-column">
-              <h5 class="card-title">UGM</h5>
-              <p class="card-text flex-grow-1">
-                Seattle's Union Gospel Mission is a nonprofit ministry that
-                cares for the homeless neighbors.
-              </p>
-              <a
-                href="https://ugm.org/"
-                class="btn btn-outline-dark btn-sm mt-auto"
-                target="_blank"
-                >View Project</a
-              >
-            </div>
-          </div>
-        </div>
-        <div class="col-md-4 d-flex" data-aos="fade-left">
-          <div class="card flex-fill h-100" style="min-width: 0">
-            <img
-              src="https://office.gb.intelliflo.net/ui-io/images/landing/intelliflo-connect-logo.png"
-              class="card-img-top"
-              alt="Project 3"
-              style="height: 200px; object-fit: contain"
-              loading="lazy"
-            />
-            <div class="card-body d-flex flex-column">
-              <h5 class="card-title">Intelligent Office</h5>
-              <p class="card-text flex-grow-1">
-                One of the products of Intelliflo.
-              </p>
-              <a
-                href="https://www.office.gb.intelliflo.net/"
-                class="btn btn-outline-dark btn-sm mt-auto"
-                target="_blank"
-                >View Project</a
-              >
-            </div>
-          </div>
-        </div>
+  <!-- ════════════════════════════════════════════════════
+         EXPERIENCE
+    ════════════════════════════════════════════════════ -->
+  <section id="experience" aria-label="Work experience">
+    <div class="container">
+      <div class="section-header gsap-fade-up">
+        <span class="section-tag">My Journey</span>
+        <h2 class="section-title">Work <span>Experience</span></h2>
+        <p>A track record of delivering high-impact solutions across diverse industries</p>
       </div>
-      <style>
-        #projects .card {
-          min-height: 100%;
-          display: flex;
-          flex-direction: column;
-        }
-        #projects .card-img-top,
-        #projects iframe {
-          width: 100%;
-          height: 200px;
-          object-fit: contain;
-        }
-      </style>
-    </section>
 
-    <section id="contact" class="container py-5" data-aos="fade-up">
-      <div class="section-title text-center">Contact</div>
-      <div class="row justify-content-center">
-        <div class="col-md-12">
-          <div class="card shadow-lg border-0 mb-4" style="transition: none">
-            <div class="card-body">
-              <div
-                class="d-flex flex-wrap justify-content-around align-items-center text-center gap-4"
-              >
-                <div>
-                  <a
-                    href="mailto:gcd.bca.akashverma@gmail.com"
-                    class="text-decoration-none text-dark"
-                  >
-                    <span class="d-inline-block bg-warning rounded-2 p-3 mb-2">
-                      <i
-                        class="fas fa-envelope fa-lg"
-                        style="color: #212529"
-                      ></i>
-                    </span>
-                    <div class="fw-bold">Email</div>
-                    <div>gcd.bca.akashverma@gmail.com</div>
-                  </a>
-                </div>
-                <div>
-                  <a
-                    href="tel:+917831836353"
-                    class="text-decoration-none text-dark"
-                  >
-                    <span class="d-inline-block bg-warning rounded-2 p-3 mb-2">
-                      <i class="fas fa-phone fa-lg" style="color: #212529"></i>
-                    </span>
-                    <div class="fw-bold">Phone</div>
-                    <div>+91 78318 36353</div>
-                  </a>
-                </div>
-                <div>
-                  <span class="d-inline-block bg-warning rounded-2 p-3 mb-2">
-                    <i
-                      class="fas fa-map-marker-alt fa-lg"
-                      style="color: #212529"
-                    ></i>
-                  </span>
-                  <div class="fw-bold">Location</div>
-                  <span>Hyderabad, India</span>
-                </div>
-                <div>
-                  <a
-                    href="https://www.linkedin.com/in/akash-verma-32621b1b7/"
-                    class="text-decoration-none text-dark"
-                    target="_blank"
-                  >
-                    <span class="d-inline-block bg-warning rounded-2 p-3 mb-2">
-                      <i
-                        class="fab fa-linkedin fa-lg"
-                        style="color: #212529"
-                      ></i>
-                    </span>
-                    <div class="fw-bold">LinkedIn</div>
-                    <div>Akash Verma</div>
-                  </a>
-                </div>
-                <div>
-                  <a
-                    href="https://wa.me/+917831836353"
-                    class="text-decoration-none text-dark"
-                    target="_blank"
-                  >
-                    <span class="d-inline-block bg-warning rounded-2 p-3 mb-2">
-                      <i
-                        class="fab fa-whatsapp fa-lg"
-                        style="color: #212529"
-                      ></i>
-                    </span>
-                    <div class="fw-bold">WhatsApp</div>
-                    <div>Akash Verma</div>
-                  </a>
-                </div>
+      <div class="timeline">
+
+        <!-- Intelliflo -->
+        <div class="timeline-item gsap-fade-up">
+          <div class="timeline-dot current"></div>
+          <div class="glass-card timeline-content">
+            <div class="timeline-header">
+              <div>
+                <div class="timeline-role">Advanced Software Engineer</div>
+                <div class="timeline-company">Intelliflo Software India Pvt. Ltd.</div>
+              </div>
+              <div class="timeline-meta">
+                <span class="timeline-date">Nov 2023 – Present</span>
+                <span class="timeline-badge">Remote</span>
               </div>
             </div>
+            <ul class="timeline-bullets">
+              <li><strong>Technical Excellence:</strong> Deliver high-quality, production-ready code with minimal
+                defects through rigorous testing and code quality standards.</li>
+              <li><strong>Agile Leadership:</strong> Actively engage in Scrum and Program Increment (PI) ceremonies,
+                driving alignment and predictability across development cycles.</li>
+              <li><strong>Full-Stack & Cloud Architecture:</strong> Leverage experience across monolithic architectures,
+                modern front-ends, and distributed microservices using Docker, Kubernetes, and AWS.</li>
+              <li><strong>AI-Driven Productivity:</strong> Optimize the development lifecycle by applying modern AI
+                tooling best practices to maximize engineering efficiency.</li>
+              <li><strong>Collaboration & Mentorship:</strong> Foster a high-performing engineering culture through
+                active cross-team collaboration and dedicated peer support.</li>
+            </ul>
+            <div class="tech-tags">
+              <span class="tech-tag">.NET Core</span>
+              <span class="tech-tag">Angular</span>
+              <span class="tech-tag">Microservices</span>
+              <span class="tech-tag">Docker</span>
+              <span class="tech-tag">Kubernetes</span>
+              <span class="tech-tag">AWS</span>
+              <span class="tech-tag">SignalR</span>
+              <span class="tech-tag">SQL Server</span>
+            </div>
           </div>
-          <style>
-            #contact .card:hover {
-              transform: none !important;
-            }
-            #contact .card-body .d-flex > div {
-              min-width: 160px;
-            }
-          </style>
+        </div>
+
+        <!-- Joenish Tech -->
+        <div class="timeline-item gsap-fade-up">
+          <div class="timeline-dot"></div>
+          <div class="glass-card timeline-content">
+            <div class="timeline-header">
+              <div>
+                <div class="timeline-role">Sr. Software Developer</div>
+                <div class="timeline-company">Joenish Tech Pvt. Ltd., Panchkula</div>
+              </div>
+              <div class="timeline-meta">
+                <span class="timeline-date">Aug 2022 – Nov 2023</span>
+                <span class="timeline-badge">On-site</span>
+              </div>
+            </div>
+            <ul class="timeline-bullets">
+              <li><strong>End-to-End Ownership:</strong> Led full-stack development of an enterprise supermarket chain
+                management platform, independently architecting and delivering three major business-critical modules.
+              </li>
+              <li><strong>Technical Leadership & Quality:</strong> Mentored junior engineers and established rigorous
+                code review practices, significantly improving team productivity and code quality.</li>
+              <li><strong>Full-Stack Delivery:</strong> Built and optimized scalable frontend and backend solutions
+                using Angular, Blazor, .NET Core, and SQL Server.</li>
+              <li><strong>Cross-Functional Collaboration:</strong> Collaborated closely with cross-functional teams to
+                design, integrate, and deploy advanced system features.</li>
+            </ul>
+            <div class="tech-tags">
+              <span class="tech-tag">Angular</span>
+              <span class="tech-tag">Blazor</span>
+              <span class="tech-tag">.NET Core</span>
+              <span class="tech-tag">Kendo UI</span>
+              <span class="tech-tag">SQL Server</span>
+              <span class="tech-tag">T-SQL</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Ariel Software Solutions -->
+        <div class="timeline-item gsap-fade-up">
+          <div class="timeline-dot"></div>
+          <div class="glass-card timeline-content">
+            <div class="timeline-header">
+              <div>
+                <div class="timeline-role">Junior Software Engineer</div>
+                <div class="timeline-company">Ariel Software Solutions, Mohali</div>
+              </div>
+              <div class="timeline-meta">
+                <span class="timeline-date">Oct 2021 – Aug 2022</span>
+                <span class="timeline-badge">On-site</span>
+              </div>
+            </div>
+            <ul class="timeline-bullets">
+              <li><strong>Production Ownership:</strong> Assumed full independent ownership of two live production
+                applications immediately after onboarding, ensuring high availability and operational stability.</li>
+              <li><strong>SEO Optimization:</strong> Enhanced search engine visibility and discoverability by
+                architecting and implementing structured data using JSON-LD schemas.</li>
+              <li><strong>Production Engineering:</strong> Spearheaded critical production bug fixes and delivered
+                seamless end-to-end backend and frontend feature enhancements.</li>
+              <li><strong>Performance Tuning:</strong> Optimized complex database queries and refined application logic
+                to significantly reduce latency and improve overall system performance.</li>
+            </ul>
+            <div class="tech-tags">
+              <span class="tech-tag">.NET Core</span>
+              <span class="tech-tag">SQL Server</span>
+              <span class="tech-tag">SEO (JSON-LD)</span>
+              <span class="tech-tag">JavaScript</span>
+              <span class="tech-tag">jQuery</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ════════════════════════════════════════════════════
+         SKILLS
+    ════════════════════════════════════════════════════ -->
+  <section id="skills" aria-label="Technical skills">
+    <div class="container">
+      <div class="section-header gsap-fade-up">
+        <span class="section-tag">What I Know</span>
+        <h2 class="section-title">Technical <span>Skills</span></h2>
+        <p>A comprehensive toolkit built across 4.5+ years of hands-on engineering</p>
+      </div>
+
+      <!-- Backend -->
+      <div class="skill-category">
+        <h3 class="skill-cat-title">Backend</h3>
+        <div class="skills-grid">
+          <div class="glass-card skill-card gsap-zoom-in" data-tilt>
+            <div class="skill-icon-wrap si-dotnet"><i class="fab fa-microsoft"></i></div>
+            <div class="skill-name">.NET Core / ASP.NET MVC</div>
+          </div>
+          <div class="glass-card skill-card gsap-zoom-in" data-tilt>
+            <div class="skill-icon-wrap si-blazor"><i class="fa-solid fa-fire"></i></div>
+            <div class="skill-name">Blazor & SignalR</div>
+          </div>
+          <div class="glass-card skill-card gsap-zoom-in" data-tilt>
+            <div class="skill-icon-wrap" style="background:rgba(0,212,255,0.1);color:var(--accent-cyan)">
+              <i class="fa-solid fa-code-branch"></i>
+            </div>
+            <div class="skill-name">Web API & gRPC</div>
+          </div>
+          <div class="glass-card skill-card gsap-zoom-in" data-tilt>
+            <div class="skill-icon-wrap" style="background:rgba(255,140,0,0.1);color:#ff8c00">
+              <i class="fa-solid fa-diagram-project"></i>
+            </div>
+            <div class="skill-name">GraphQL & JWT Auth</div>
+          </div>
         </div>
       </div>
-    </section>
 
-    <footer class="footer">
-      <div class="container">
-        <p class="mb-0">Designed with ❤️ by Akash Verma</p>
-        <p class="mb-0">© <span id="year"></span> All rights reserved.</p>
+      <!-- Frontend -->
+      <div class="skill-category">
+        <h3 class="skill-cat-title">Frontend</h3>
+        <div class="skills-grid">
+          <div class="glass-card skill-card gsap-zoom-in" data-tilt>
+            <div class="skill-icon-wrap si-angular"><i class="fab fa-angular"></i></div>
+            <div class="skill-name">Angular</div>
+          </div>
+          <div class="glass-card skill-card gsap-zoom-in" data-tilt>
+            <div class="skill-icon-wrap" style="background:rgba(97,218,251,0.1);color:#61dafb">
+              <i class="fab fa-react"></i>
+            </div>
+            <div class="skill-name">React</div>
+          </div>
+          <div class="glass-card skill-card gsap-zoom-in" data-tilt>
+            <div class="skill-icon-wrap si-js"><i class="fab fa-js"></i></div>
+            <div class="skill-name">JavaScript / TypeScript</div>
+          </div>
+          <div class="glass-card skill-card gsap-zoom-in" data-tilt>
+            <div class="skill-icon-wrap si-html"><i class="fab fa-html5"></i></div>
+            <div class="skill-name">HTML5 / CSS3</div>
+          </div>
+          <div class="glass-card skill-card gsap-zoom-in" data-tilt>
+            <div class="skill-icon-wrap si-kendo"><i class="fa-solid fa-layer-group"></i></div>
+            <div class="skill-name">Kendo UI / Angular Material</div>
+          </div>
+          <div class="glass-card skill-card gsap-zoom-in" data-tilt>
+            <div class="skill-icon-wrap si-bs"><i class="fab fa-bootstrap"></i></div>
+            <div class="skill-name">Bootstrap / jQuery</div>
+          </div>
+        </div>
       </div>
-    </footer>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
-    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/smooth-scroll@16.1.3/dist/smooth-scroll.polyfills.min.js"></script>
-    <script src="assets/static/app.js"></script>
-  </body>
+
+      <!-- Cloud & DevOps -->
+      <div class="skill-category">
+        <h3 class="skill-cat-title">Cloud & DevOps</h3>
+        <div class="skills-grid">
+          <div class="glass-card skill-card gsap-zoom-in" data-tilt>
+            <div class="skill-icon-wrap si-azure"><i class="fab fa-aws"></i></div>
+            <div class="skill-name">AWS (EC2, S3, IAM, EKS)</div>
+          </div>
+          <div class="glass-card skill-card gsap-zoom-in" data-tilt>
+            <div class="skill-icon-wrap" style="background:rgba(0,119,182,0.1);color:#0076b6">
+              <i class="fab fa-docker"></i>
+            </div>
+            <div class="skill-name">Docker & Kubernetes</div>
+          </div>
+          <div class="glass-card skill-card gsap-zoom-in" data-tilt>
+            <div class="skill-icon-wrap si-git"><i class="fab fa-git-alt"></i></div>
+            <div class="skill-name">Git / GitHub / CI-CD</div>
+          </div>
+          <div class="glass-card skill-card gsap-zoom-in" data-tilt>
+            <div class="skill-icon-wrap" style="background:rgba(232,75,21,0.1);color:#e84b15">
+              <i class="fa-solid fa-chart-line"></i>
+            </div>
+            <div class="skill-name">Prometheus & Grafana</div>
+          </div>
+          <div class="glass-card skill-card gsap-zoom-in" data-tilt>
+            <div class="skill-icon-wrap" style="background:rgba(255,102,0,0.1);color:#ff6600">
+              <i class="fa-solid fa-envelope-open-text"></i>
+            </div>
+            <div class="skill-name">RabbitMQ & Nginx</div>
+          </div>
+          <div class="glass-card skill-card gsap-zoom-in" data-tilt>
+            <div class="skill-icon-wrap" style="background:rgba(16,185,129,0.1);color:#10b981">
+              <i class="fa-solid fa-magnifying-glass-chart"></i>
+            </div>
+            <div class="skill-name">OpenTelemetry / Jaeger</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Databases & Tools -->
+      <div class="skill-category">
+        <h3 class="skill-cat-title">Databases & Tools</h3>
+        <div class="skills-grid">
+          <div class="glass-card skill-card gsap-zoom-in" data-tilt>
+            <div class="skill-icon-wrap si-sql"><i class="fa-solid fa-database"></i></div>
+            <div class="skill-name">MS SQL Server / T-SQL</div>
+          </div>
+          <div class="glass-card skill-card gsap-zoom-in" data-tilt>
+            <div class="skill-icon-wrap" style="background:rgba(0,212,255,0.1);color:var(--accent-cyan)">
+              <i class="fa-solid fa-bolt"></i>
+            </div>
+            <div class="skill-name">Query Optimization & Indexing</div>
+          </div>
+          <div class="glass-card skill-card gsap-zoom-in" data-tilt>
+            <div class="skill-icon-wrap si-vs"><i class="fa fa-screwdriver-wrench"></i></div>
+            <div class="skill-name">Visual Studio / SSMS</div>
+          </div>
+          <div class="glass-card skill-card gsap-zoom-in" data-tilt>
+            <div class="skill-icon-wrap" style="background:rgba(251,191,36,0.1);color:var(--accent-gold)">
+              <i class="fa-solid fa-flask"></i>
+            </div>
+            <div class="skill-name">xUnit / NUnit Testing</div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ════════════════════════════════════════════════════
+         PROJECTS
+    ════════════════════════════════════════════════════ -->
+  <section id="projects" aria-label="Key projects">
+    <div class="container">
+      <div class="section-header gsap-fade-up">
+        <span class="section-tag">What I've Built</span>
+        <h2 class="section-title">Key <span>Projects</span></h2>
+        <p>Enterprise-grade applications delivered across FinTech, Retail, and B2B sectors</p>
+      </div>
+
+      <div class="projects-grid">
+
+        <!-- Intelligent Office (iO) -->
+        <article class="glass-card project-card gsap-fade-up" data-tilt>
+          <div class="project-thumb" style="background: linear-gradient(135deg, #0d1b2a 0%, #0a2147 100%);">
+            <img src="https://office.gb.intelliflo.net/ui-io/images/landing/intelliflo-connect-logo.png"
+              alt="Intelligent Office by Intelliflo"
+              style="max-width:70%;max-height:110px;object-fit:contain;margin:auto;display:block;" loading="lazy" />
+            <div class="project-thumb-overlay"></div>
+            <span class="project-badge">FinTech · SaaS</span>
+          </div>
+          <div class="project-body">
+            <h3 class="project-title">Intelligent Office (iO)</h3>
+            <p class="project-desc">
+              Architected enterprise-grade workflows for a distributed wealth management platform,
+              automating financial advisory and portfolio operations. Implemented the
+              <strong>Saga Pattern</strong> for distributed transaction reliability across microservices
+              deployed on Kubernetes and AWS.
+            </p>
+            <div class="tech-tags" style="margin-bottom:1rem;">
+              <span class="tech-tag">.NET Core</span>
+              <span class="tech-tag">Microservices</span>
+              <span class="tech-tag">AWS</span>
+              <span class="tech-tag">Kubernetes</span>
+              <span class="tech-tag">Saga Pattern</span>
+              <span class="tech-tag">EF Core</span>
+            </div>
+            <a href="https://www.office.gb.intelliflo.net/" class="project-link" target="_blank" rel="noopener">
+              View Project
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M7 17L17 7M17 7H7M17 7v10" />
+              </svg>
+            </a>
+          </div>
+        </article>
+
+        <!-- Publix Platform -->
+        <article class="glass-card project-card gsap-fade-up" data-tilt>
+          <div class="project-thumb"
+            style="background: linear-gradient(135deg, #0f2027 0%, #203a43 50%, #2c5364 100%);">
+            <div class="project-thumb-placeholder">
+              <i class="fa-solid fa-store" style="color:var(--accent-cyan)"></i>
+              <span>Publix Platform</span>
+            </div>
+            <div class="project-thumb-overlay"></div>
+            <span class="project-badge">Enterprise · Retail</span>
+          </div>
+          <div class="project-body">
+            <h3 class="project-title">Publix Platform</h3>
+            <p class="project-desc">
+              Led end-to-end full-stack ownership for an enterprise supermarket chain management
+              system, independently architecting and delivering three major business-critical modules.
+              Built a reusable UI component library with <strong>Angular and Kendo UI</strong>,
+              significantly cutting frontend development overhead.
+            </p>
+            <div class="tech-tags" style="margin-bottom:1rem;">
+              <span class="tech-tag">Angular</span>
+              <span class="tech-tag">Kendo UI</span>
+              <span class="tech-tag">.NET Core</span>
+              <span class="tech-tag">SQL Server</span>
+              <span class="tech-tag">T-SQL</span>
+            </div>
+            <span class="project-link" style="opacity:0.45;cursor:default;">
+              Internal Platform
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M17 11H3M10 18l-7-7 7-7" />
+              </svg>
+            </span>
+          </div>
+        </article>
+
+        <!-- Analog Devices via Infosys -->
+        <article class="glass-card project-card gsap-fade-up" data-tilt>
+          <div class="project-thumb" style="background: linear-gradient(135deg, #1a0533 0%, #2d1065 100%);">
+            <div class="project-thumb-placeholder">
+              <i class="fa-solid fa-microchip" style="color:var(--accent-violet)"></i>
+              <span>Analog Devices via Infosys</span>
+            </div>
+            <div class="project-thumb-overlay"></div>
+            <span class="project-badge">B2B · E-Commerce</span>
+          </div>
+          <div class="project-body">
+            <h3 class="project-title">Analog Devices (via Infosys)</h3>
+            <p class="project-desc">
+              Spearheaded backend engineering to modernize catalog workflows and purchasing transactions
+              for a high-traffic PCB B2B e-commerce platform. Engineered high-performance
+              <strong>data pipelines</strong> and CMS using Sitecore and .NET Framework,
+              streamlining complex B2B transaction flows.
+            </p>
+            <div class="tech-tags" style="margin-bottom:1rem;">
+              <span class="tech-tag">.NET Framework</span>
+              <span class="tech-tag">Sitecore</span>
+              <span class="tech-tag">SQL Server</span>
+              <span class="tech-tag">B2B Commerce</span>
+            </div>
+            <span class="project-link" style="opacity:0.45;cursor:default;">
+              Internal Platform
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M17 11H3M10 18l-7-7 7-7" />
+              </svg>
+            </span>
+          </div>
+        </article>
+
+        <!-- FriendBee & Rex London Trade -->
+        <article class="glass-card project-card gsap-fade-up" data-tilt>
+          <div class="project-thumb">
+            <iframe src="https://www.rexlondontrade.com/" scrolling="no" title="Rex London Trade preview" loading="lazy"
+              aria-hidden="true"></iframe>
+            <div class="project-thumb-overlay"></div>
+            <span class="project-badge">Consumer · Retail</span>
+          </div>
+          <div class="project-body">
+            <h3 class="project-title">FriendBee & Rex London Trade</h3>
+            <p class="project-desc">
+              Independently managed and enhanced live production features across high-growth
+              consumer-facing social networking and retail platforms. Boosted SEO discoverability
+              through <strong>JSON-LD schema</strong> implementations and significantly reduced
+              system latency via deep database performance tuning.
+            </p>
+            <div class="tech-tags" style="margin-bottom:1rem;">
+              <span class="tech-tag">.NET Core</span>
+              <span class="tech-tag">SQL Server</span>
+              <span class="tech-tag">SEO (JSON-LD)</span>
+              <span class="tech-tag">Full-Stack</span>
+            </div>
+            <a href="https://www.rexlondontrade.com/" class="project-link" target="_blank" rel="noopener">
+              View Rex London
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M7 17L17 7M17 7H7M17 7v10" />
+              </svg>
+            </a>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ════════════════════════════════════════════════════
+         EDUCATION
+    ════════════════════════════════════════════════════ -->
+  <section id="education" aria-label="Education">
+    <div class="container">
+      <div class="section-header gsap-fade-up">
+        <span class="section-tag">Academic Background</span>
+        <h2 class="section-title">My <span>Education</span></h2>
+      </div>
+
+      <div class="glass-card edu-card gsap-zoom-in">
+        <div class="edu-icon">
+          <i class="fa-solid fa-graduation-cap"></i>
+        </div>
+        <div>
+          <div class="edu-degree">Bachelor of Computer Applications (BCA)</div>
+          <div class="edu-institution">Himachal Pradesh University, Shimla</div>
+          <div class="edu-year">
+            <i class="fa-regular fa-calendar fa-xs"></i>
+            2018 – 2021
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ════════════════════════════════════════════════════
+         CONTACT
+    ════════════════════════════════════════════════════ -->
+  <section id="contact" aria-label="Contact">
+    <div class="container">
+      <div class="section-header gsap-fade-up">
+        <span class="section-tag">Let's Connect</span>
+        <h2 class="section-title">Get in <span>Touch</span></h2>
+        <p>Open to freelance, contract, and full-time opportunities — let's build something great together</p>
+      </div>
+
+      <div class="contact-grid">
+
+        <a href="mailto:engineer.akash.verma@gmail.com" class="glass-card contact-card gsap-zoom-in"
+          aria-label="Send email">
+          <div class="contact-icon-wrap ci-email"><i class="fas fa-envelope"></i></div>
+          <div class="contact-label">Email</div>
+          <div class="contact-value">engineer.akash.verma@gmail.com</div>
+        </a>
+
+        <a href="tel:+917831836353" class="glass-card contact-card gsap-zoom-in" aria-label="Call phone">
+          <div class="contact-icon-wrap ci-phone"><i class="fas fa-phone"></i></div>
+          <div class="contact-label">Phone</div>
+          <div class="contact-value">+91 78318 36353</div>
+        </a>
+
+        <div class="glass-card contact-card gsap-zoom-in">
+          <div class="contact-icon-wrap ci-loc"><i class="fas fa-map-marker-alt"></i></div>
+          <div class="contact-label">Location</div>
+          <div class="contact-value">Hyderabad, India</div>
+        </div>
+
+        <a href="https://www.linkedin.com/in/akash-verma-32621b1b7/" class="glass-card contact-card gsap-zoom-in"
+          target="_blank" rel="noopener" aria-label="LinkedIn profile">
+          <div class="contact-icon-wrap ci-li"><i class="fab fa-linkedin"></i></div>
+          <div class="contact-label">LinkedIn</div>
+          <div class="contact-value">Akash Verma</div>
+        </a>
+
+        <a href="https://wa.me/+917831836353" class="glass-card contact-card gsap-zoom-in" target="_blank"
+          rel="noopener" aria-label="WhatsApp chat">
+          <div class="contact-icon-wrap ci-wa"><i class="fab fa-whatsapp"></i></div>
+          <div class="contact-label">WhatsApp</div>
+          <div class="contact-value">Message Me</div>
+        </a>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ════════════════════════════════════════════════════
+         FOOTER
+    ════════════════════════════════════════════════════ -->
+  <footer>
+    <div class="container">
+      <p>
+        Designed &amp; built with <span class="heart">❤️</span> by
+        <a href="https://github.com/sky-verma" target="_blank" rel="noopener">Akash Verma</a>
+      </p>
+      <p style="margin-top:0.4rem;">&copy; <span id="year"></span> All rights reserved.</p>
+    </div>
+  </footer>
+
+  <!-- ════════════════════════════════════════════════════
+         SCRIPTS
+    ════════════════════════════════════════════════════ -->
+  <!-- Three.js -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+  <!-- GSAP + ScrollTrigger -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+  <!-- VanillaTilt -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-tilt/1.8.1/vanilla-tilt.min.js"></script>
+  <!-- Typed.js -->
+  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.1.0/dist/typed.umd.js"></script>
+  <!-- App Script -->
+  <script src="assets/static/app.js"></script>
+</body>
+
 </html>

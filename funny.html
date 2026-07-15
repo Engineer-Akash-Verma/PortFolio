@@ -18,8 +18,10 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" />
   <!-- App CSS -->
   <link rel="stylesheet" href="assets/static/app.css" />
-
   <link rel="stylesheet" href="assets/static/funny.css" />
+
+  <!-- Theme Script (Placed in head to prevent FOUC) -->
+  <script src="assets/static/theme.js"></script>
 </head>
 
 <body>
@@ -34,6 +36,11 @@
         <ul class="nav-links">
           <li><a class="nav-cta funny-nav-cta" href="#hire">Just Hire Me
               Already</a></li>
+          <li style="display: flex; align-items: center; margin-left: 1rem;">
+            <button id="theme-toggle" class="theme-toggle" aria-label="Toggle light/dark mode" title="Toggle Theme">
+              <i class="fas fa-sun"></i>
+            </button>
+          </li>
         </ul>
       </div>
     </div>

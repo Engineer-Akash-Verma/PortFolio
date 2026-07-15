@@ -27,6 +27,19 @@
     baseColor: '255, 255, 255'
   };
 
+  function updateTheme() {
+    const isLightMode = document.documentElement.getAttribute('data-theme') === 'light';
+    config.bgColor = isLightMode ? '#f8fafc' : '#0a0a0a';
+    config.baseColor = isLightMode ? '15, 23, 42' : '255, 255, 255';
+  }
+
+  // Watch for theme changes
+  const themeObserver = new MutationObserver(() => {
+    updateTheme();
+  });
+  themeObserver.observe(document.documentElement, { attributes: true, attributeFilter: ['data-theme'] });
+  updateTheme();
+
   const mouse = { x: null, y: null };
 
   window.addEventListener('mousemove', (e) => {

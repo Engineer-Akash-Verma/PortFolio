@@ -62,10 +62,13 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" />
   <!-- App CSS -->
   <link rel="stylesheet" href="assets/static/app.css" />
+
+  <!-- Theme Script (Placed in head to prevent FOUC) -->
+  <script src="assets/static/theme.js"></script>
 </head>
 
 <body>
-  <canvas id="bg-canvas" aria-hidden="true"></canvas>  <!-- ════════════════════════════════════════════════════
+  <canvas id="bg-canvas" aria-hidden="true"></canvas> <!-- ════════════════════════════════════════════════════
          NAVBAR
     ════════════════════════════════════════════════════ -->
   <nav id="navbar" aria-label="Main navigation">
@@ -82,6 +85,11 @@
             <a class="nav-cta" href="#contact" data-section="contact" role="menuitem">
               Contact <i class="fas fa-arrow-right fa-xs"></i>
             </a>
+          </li>
+          <li role="none" style="display: flex; align-items: center;">
+            <button id="theme-toggle" class="theme-toggle" aria-label="Toggle light/dark mode" title="Toggle Theme">
+              <i class="fas fa-sun"></i>
+            </button>
           </li>
         </ul>
         <button class="hamburger" id="hamburger" aria-label="Toggle menu" aria-expanded="false">
@@ -244,13 +252,14 @@
             </ul>
             <div class="tech-tags">
               <span class="tech-tag">.NET Core</span>
-              <span class="tech-tag">Angular</span>
+              <span class="tech-tag">.Net Framework</span>
               <span class="tech-tag">Microservices</span>
               <span class="tech-tag">Docker</span>
               <span class="tech-tag">Kubernetes</span>
               <span class="tech-tag">AWS</span>
               <span class="tech-tag">SignalR</span>
               <span class="tech-tag">SQL Server</span>
+              <span class="tech-tag">React</span>
             </div>
           </div>
         </div>
@@ -286,7 +295,7 @@
               <span class="tech-tag">.NET Core</span>
               <span class="tech-tag">Kendo UI</span>
               <span class="tech-tag">SQL Server</span>
-              <span class="tech-tag">T-SQL</span>
+              <span class="tech-tag">VB.Net</span>
             </div>
           </div>
         </div>
@@ -317,6 +326,8 @@
             </ul>
             <div class="tech-tags">
               <span class="tech-tag">.NET Core</span>
+              <span class="tech-tag">.NET Framework</span>
+              <span class="tech-tag">Umbraco and uCommerce</span>
               <span class="tech-tag">SQL Server</span>
               <span class="tech-tag">SEO (JSON-LD)</span>
               <span class="tech-tag">JavaScript</span>
@@ -445,7 +456,7 @@
         <div class="skills-grid">
           <div class="glass-card skill-card gsap-zoom-in" data-tilt>
             <div class="skill-icon-wrap si-sql"><i class="fa-solid fa-database"></i></div>
-            <div class="skill-name">MS SQL Server / T-SQL</div>
+            <div class="skill-name">MS SQL Server / Mongo</div>
           </div>
           <div class="glass-card skill-card gsap-zoom-in" data-tilt>
             <div class="skill-icon-wrap" style="background:rgba(0,212,255,0.1);color:var(--accent-cyan)">
@@ -519,11 +530,9 @@
 
         <!-- Publix Platform -->
         <article class="glass-card project-card gsap-fade-up" data-tilt>
-          <div class="project-thumb" style="background: rgba(255, 255, 255, 0.03);">
-            <div class="project-thumb-placeholder">
-              <i class="fa-solid fa-store" style="color:var(--accent-cyan)"></i>
-              <span>Publix Platform</span>
-            </div>
+          <div class="project-thumb">
+            <iframe src="https://www.publix.com/" scrolling="no" title="Publix Platform preview" loading="lazy"
+              aria-hidden="true"></iframe>
             <div class="project-thumb-overlay"></div>
             <span class="project-badge">Enterprise · Retail</span>
           </div>
@@ -542,13 +551,13 @@
               <span class="tech-tag">SQL Server</span>
               <span class="tech-tag">T-SQL</span>
             </div>
-            <span class="project-link" style="opacity:0.45;cursor:default;">
-              Internal Platform
+            <a href="https://www.publix.com/" class="project-link" target="_blank" rel="noopener">
+              View Publix
               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
                 stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
-                <path d="M17 11H3M10 18l-7-7 7-7" />
+                <path d="M7 17L17 7M17 7H7M17 7v10" />
               </svg>
-            </span>
+            </a>
           </div>
         </article>
 
@@ -576,13 +585,13 @@
               <span class="tech-tag">SQL Server</span>
               <span class="tech-tag">B2B Commerce</span>
             </div>
-            <span class="project-link" style="opacity:0.45;cursor:default;">
-              Internal Platform
+            <a href="https://www.analog.com/en/index.html" class="project-link" target="_blank" rel="noopener">
+              View Analog Devices
               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
                 stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
-                <path d="M17 11H3M10 18l-7-7 7-7" />
+                <path d="M7 17L17 7M17 7H7M17 7v10" />
               </svg>
-            </span>
+            </a>
           </div>
         </article>
 

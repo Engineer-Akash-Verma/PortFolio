@@ -33,6 +33,27 @@
   --transition-fast: all 0.18s ease;
 }
 
+[data-theme="light"] {
+  --bg-primary: #f8fafc;
+  --bg-secondary: #f1f5f9;
+  --bg-card: rgba(255, 255, 255, 0.7);
+  --bg-card-hover: rgba(255, 255, 255, 0.95);
+
+  --accent-cyan: #0f172a;
+  --accent-violet: #334155;
+  --accent-gold: #000000;
+  --accent-green: #000000;
+
+  --text-primary: #0f172a;
+  --text-secondary: #475569;
+  --text-muted: #64748b;
+
+  --border-glass: rgba(0, 0, 0, 0.08);
+  --border-glow: rgba(0, 0, 0, 0.15);
+  --shadow-card: 0 4px 20px rgba(0, 0, 0, 0.05);
+  --shadow-glow: 0 0 20px rgba(0, 0, 0, 0.05);
+}
+
 /* ── Reset & Base ─────────────────────────────────────────── */
 *,
 *::before,
@@ -54,6 +75,7 @@ body {
   color: var(--text-primary);
   overflow-x: hidden;
   line-height: 1.7;
+  transition: background-color 0.35s cubic-bezier(0.4, 0, 0.2, 1), color 0.35s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 ::selection {
@@ -240,6 +262,8 @@ section {
   padding: 0.5rem;
   background: none;
   border: none;
+  position: relative;
+  z-index: 1000;
 }
 
 .hamburger span {
@@ -1329,6 +1353,34 @@ footer a:hover {
   flex: 1;
   height: 1px;
   background: linear-gradient(to right, var(--border-glass), transparent);
+}
+
+.hamburger.active span:nth-child(3) {
+  transform: translateY(-8px) rotate(-45deg);
+}
+
+.theme-toggle {
+  background: transparent;
+  border: none;
+  color: var(--text-primary);
+  font-size: 1.2rem;
+  cursor: pointer;
+  padding: 0.5rem;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: var(--transition-fast);
+  margin-left: 0.5rem;
+}
+
+.theme-toggle:hover {
+  color: var(--accent-cyan);
+  background: rgba(255, 255, 255, 0.05);
+}
+
+[data-theme="light"] .theme-toggle:hover {
+  background: rgba(0, 0, 0, 0.05);
 }
 
 /* ══════════════════════════════════════════════════════════

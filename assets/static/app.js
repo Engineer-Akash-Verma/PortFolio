@@ -138,3 +138,33 @@
 
 // ── Footer year ─────────────────────────────────────────────
 document.getElementById('year').textContent = new Date().getFullYear();
+
+// ── Auto Calculate Experience ──────────────────────────────────
+(function initExperienceCalc() {
+  const startDate = new Date(2021, 9, 4); // October 4, 2021
+  const now = new Date();
+  
+  let years = now.getFullYear() - startDate.getFullYear();
+  let months = now.getMonth() - startDate.getMonth();
+  
+  if (months < 0) {
+    years--;
+    months += 12;
+  }
+  
+  let experienceText = '';
+  if (years > 0) {
+    experienceText += years + (years === 1 ? ' year' : ' years');
+  }
+  if (months > 0) {
+    if (experienceText !== '') experienceText += ' and ';
+    experienceText += months + (months === 1 ? ' month' : ' months');
+  }
+  if (experienceText === '') {
+    experienceText = 'Less than a month';
+  }
+  
+  document.querySelectorAll('.experience-calc').forEach(el => {
+    el.textContent = experienceText;
+  });
+})();
